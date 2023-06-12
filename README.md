@@ -20,8 +20,9 @@ echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc
 # command for EKS cluster setup in kubectl server: 
 
 aws eks --region ap-south-1 describe-cluster --name pc-eks --query cluster.status
+
 aws eks --region ap-south-1 update-kubeconfig --name pc-eks
 
-# kubectl get nodes
+kubectl get nodes
 
-# kubectl get svc
+kubectl get svc
