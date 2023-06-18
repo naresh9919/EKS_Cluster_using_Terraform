@@ -1,5 +1,5 @@
 resource "aws_instance" "kubectl-server" {
-  ami                         = "ami-049a62eb90480f276"
+  ami                         = "ami-057752b3f1d6c4d6c"
   key_name                    = "terraform"
   instance_type               = "t2.micro"
   associate_public_ip_address = true
